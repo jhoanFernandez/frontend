@@ -1,0 +1,1 @@
+// Footer.vue placeholder content
