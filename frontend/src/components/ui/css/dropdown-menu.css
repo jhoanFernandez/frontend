@@ -1,0 +1,38 @@
+/* src/components/ui/dropdown-menu.css */
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-menu-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 4px;
+    z-index: 1;
+  }
+  
+  .dropdown-menu:hover .dropdown-menu-content {
+    display: block;
+  }
+  
+  .dropdown-menu-trigger {
+    cursor: pointer;
+  }
+  
+  .dropdown-menu-radio-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown-menu-radio-item {
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu-radio-item.selected {
+    background-color: #007bff;
+    color: white;
+  }
